@@ -8,13 +8,12 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static('public'));
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/pizza-hunt', {
-    useFindAndModify: false,
-    useNewUrlParser: true,
-    useUnifiedTopology: true
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/nosql-yessocial', {
+    // useFindAndModify: false,
+    // useNewUrlParser: true,
+    // useUnifiedTopology: true
 });
 
-//use this to log mongo queries being executed!
 mongoose.set('debug', true);
 
 app.use(require('./routes'));
