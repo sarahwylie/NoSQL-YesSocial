@@ -17,6 +17,13 @@ View the back-end routes of a sample social networking site to see how the route
 If you would like to test this yourself, clone the code onto your machine (be sure your dependencies are installed!), start the server, and pop open your favorite API client (we over at SarahWylie Industries used Insomnia).
 
 ## Output:
+https://user-images.githubusercontent.com/90208612/158043316-62642506-b372-47a6-9764-ce1577a528a2.mp4
+
+
+https://user-images.githubusercontent.com/90208612/158043359-0ea255b9-ffb0-4fbd-afa4-748356adb14d.mp4
+
+
+https://user-images.githubusercontent.com/90208612/158043361-73a5171f-b0bb-4a18-a48b-e73d8c3370b5.mp4
 
 
 ## Tests
